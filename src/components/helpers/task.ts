@@ -1,5 +1,6 @@
 
 export type taskProps = {
   id: number,
-  title: string
+  title: string,
+  tasks?: string[]
 }
